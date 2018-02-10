@@ -19,6 +19,7 @@ http-server -p 8080
 * Attempt to visit http://localhost:8080/test-route
 
 **Expected:** The page also loads, since the index should be cached by the Service Worker, which should load, w/ Angular redirecting to the correct `test-route`
+
 **Failure:** The page fails to load. In the network tab, the service worker has responded with `504 - Gateway Timeout`
 
 * Visiting http://localhost:8080/ continues to work
