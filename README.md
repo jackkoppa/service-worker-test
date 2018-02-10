@@ -1,4 +1,6 @@
 # ServiceWorkerTest
+**Note:** This branch, `additional-testing`, will be beyond the minimal reproduction, and be used to test potential fixes.
+
 This is a minimal reproduction of Angular issue [#21636](https://github.com/angular/angular/issues/21636) (as well as [#22110](https://github.com/angular/angular/issues/22110), a duplicate).
 
 To see the problem for yourself, run:
